@@ -19,6 +19,6 @@ Ruby bindings for MeCab, a morphological analyzer.
 
 	s.test_files = ['examples/test.rb']
 
-	s.add_development_dependency 'rake', '~> 10'
-	s.add_development_dependency 'rake-compiler', '~> 0'
+	s.add_development_dependency 'rake'
+	s.add_development_dependency 'rake-compiler'
 end
